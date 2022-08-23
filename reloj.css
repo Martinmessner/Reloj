@@ -1,0 +1,28 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #000000;
+}
+
+.centrar {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+}
+
+.reloj div {
+    margin: auto;
+    color: #DDDDDD;
+    background-color: #000;
+    font-size: 80px;
+    padding: 0px 12px;
+    font-family: monospace;
+}
+
+.reloj {
+    display: inline-flex;
+    text-align: center;
+    justify-content: center;
+
+}
